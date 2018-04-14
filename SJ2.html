@@ -2,7 +2,14 @@
 <html>
 <head>
 <style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
 body {background-image: url("whiteMarble.jpg");}
+
+
 
  }
 h4 {
@@ -18,10 +25,14 @@ h4 {
 	margin-left: 0px;
 	background-color: rgb(0, 218, 202);
 	}
+	
+	
 p {
 text-indent: 50px;
 margin-right: 250px;
 }
+
+
 div.img {
 background: url(blueGreenTriangles.jpg) repeat;
 border: 2px solid black;
@@ -49,9 +60,21 @@ margin-right: 50px;
 }
 
 img {
-float: right;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img {
+hover: right;
+margin-left: 50px;
+margin-right: 50px;
+border: 1px solid black;
+}
 	
 </style>
 
@@ -61,6 +84,8 @@ float: right;
 </head>
 
 <body>
+
+
 <div class="img">
 <div class="transbox">
 <h1 style="text-align:center"><font size="400">Social Injustices in Education</font></h1>
@@ -71,8 +96,9 @@ float: right;
 
 <h2>Standardized Testing is NOT an Accurate Measurment of a Students Ablilites</h2>
 
-
-<p><img src= "testQuote.jpg" alt="ConsTestingMichelle" style="width:200px;height:250px;margin-left:50px;margin-right:350px;"> 
+ 
+ 
+<p>
 In every school there are bright, smart, and talented students. However,
 when the time comes to place students in advanced classes, some of these students are
 placed in the common core classes. They aren't given the chance to prosper and reach their full potential. 
@@ -91,6 +117,7 @@ is a bright student with real potential. Not all bright students do well when it
 but this in no way means that they are not talented. Talent comes in many different forms, and you can't judge 
 a student's value <i> just</i> by looking at the numbers on a test. </p>
 
+<img src= "testQuote.jpg" alt="ConsTestingMichelle" style="width:200px;height:250px;margin-left:50px;margin-right:350px;">
 
 <p>
 
